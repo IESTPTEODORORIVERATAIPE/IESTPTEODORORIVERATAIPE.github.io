@@ -1,144 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Galería Profesional</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    header h1 {
-      margin: 0;
-    }
-
-    nav a {
-      color: white;
-      margin-left: 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 2rem;
-    }
-
-    .card {
-      background: white;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .card-body {
-      padding: 1rem;
-    }
-
-    .card-body h3 {
-      margin-top: 0;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background-color 0.2s;
-    }
-
-    .btn:hover {
-      background-color: #0056b3;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #333;
-      color: white;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>IESTP TEODORO RIVERA TAIPE</h1>
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Galería</a>
-      <a href="#">Descargas</a>
-      <a href="#">Contacto</a>
-    </nav>
-  </header>
-
-  <main class="container">
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200" alt="Ejemplo 1">
-      <div class="card-body">
-        <h3>Documento 1</h3>
-        <p>Descripción breve del documento.</p>
-        <a href="documento1.pdf" class="btn" download>Descargar</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200" alt="Ejemplo 2">
-      <div class="card-body">
-        <h3>Documento 2</h3>
-        <p>Otro archivo disponible para descarga.</p>
-        <a href="documento2.pdf" class="btn" download>Descargar</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200" alt="Ejemplo 3">
-      <div class="card-body">
-        <h3>Documento 3</h3>
-        <p>Archivo interesante con información útil.</p>
-        <a href="documento3.pdf" class="btn" download>Descargar</a>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    &copy; 2025 Mi Galería. Todos los derechos reservados.
-  </footer>
-</body>
+<html>
+  <head>
+    <title>Incrustar Web App</title>
+    <style>
+      iframe {
+        width: 100%;
+        height: 600px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mi Página HTML con Apps Script Web App</h1>
+    <iframe src="https://script.google.com/macros/s/AKfycbyTuWebAppID/exec"></iframe>
+  </body>
 </html>
